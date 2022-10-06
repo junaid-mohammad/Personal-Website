@@ -83,6 +83,10 @@ hr {
   text-align: justify;
 }
 
+.skill-heading {
+  text-align: center;
+}
+
 .comp {
   text-decoration: underline;
 }
