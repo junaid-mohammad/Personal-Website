@@ -1,66 +1,127 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Junaid Arif</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Mohammad Junaid Arif</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <!-- Top section with clouds and intro -->
+    <div class="top-container">
+      <img class="top-cloud" src="./assets/images/cloud.png" alt="cloud-img" />
+      <h1>I'm Junaid.</h1>
+      <h3>a <span class="comp">comp</span>uter engineer.</h3>
+      <img
+        class="bottom-cloud"
+        src="./assets/images/cloud.png"
+        alt="cloud-img"
+      />
+      <img
+        class="mountain"
+        src="./assets/images/mountain.png"
+        alt="mountain-img"
+      />
+    </div>
 
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Junaid.</h1>
-    <h3>a <span class="comp">comp</span>uter engineer.</h3>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain" src="images/mountain.png" alt="mountain-img">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="junaid-image" src="images/ProfileImage.png" alt="junaid's profile picture">
-
-      <h2>Hello.</h2>
-      <div class="intro">
-        <p>I'm a 3rd year Computer Engineering student at McGill University. I love to design and build software to solve real world problems.</p>
+    <!-- Middle section with profile, skills and contact -->
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="junaid-image"
+          src="./assets/images/junaid-linkedin.png"
+          alt="junaid's profile picture"
+        />
+        <h2>Hello.</h2>
+        <div class="intro">
+          <p>
+            I love to design and build software to solve real world problems. I
+            balance technology with adventures, cooking, and exploring the
+            world.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <!-- Skills section -->
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="web-developer-img"
+            src="./assets/images/software-engineer.png"
+            alt="web-developer-img"
+          />
+          <h3 class="skill-heading">Design and Development.</h3>
+          <p>
+            Driven by a passion for continuous learning, I embarked on my coding
+            journey in 2020 and have since developed a diverse skill set in
+            software design and development. My experiences span from
+            foundational programming to hands-on projects in web development,
+            DevOps, and AI. Currently, I am focused on mastering full-stack
+            development, with a goal to create dynamic, scalable solutions. Each
+            project builds on the last, adding depth to my technical expertise
+            and my adaptability across evolving technologies.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="collaboration-img"
+            src="./assets/images/team-at-work.png"
+            alt="collaboration-img"
+          />
+          <h3 class="skill-heading">Communication and Collaboration.</h3>
+          <p>
+            I’m deeply committed to community engagement and building
+            connections. Through various volunteer and leadership roles, I have
+            actively advocated for over 1,200 Electrical, Computer, and Software
+            Engineering students, managed complex event logistics with large
+            budgets, and mentored peers in academic and professional growth.
+            These experiences have honed my abilities to communicate
+            effectively, collaborate seamlessly in teams, and lead initiatives
+            that create a lasting, positive impact.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <!-- Contact section -->
+      <div class="contact-me">
+        <h2>Get In Touch.</h2>
+        <h3>If you enjoy Gilmore Girls as much as I do.</h3>
+        <p class="contact-message">
+          Love Lorelai? Let's talk more about how amazing she is.<br />We can
+          also discuss solving real-world problems through technology while we
+          are at it.
+        </p>
+        <a class="btn" href="mailto:mohammad.junaidarif@mail.mcgill.ca"
+          >CONTACT ME</a
+        >
       </div>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="web-developer-img" src="images/web-dev-modified.png" alt="web-developer-img">
-        <h3 class="skill-heading">Design and Development.</h3>
-        <p>I am always looking to learn and acquire new skills. As such, I started learning to code 4 years ago and have not stopped since. Over time, I have gained a wealth of experience designing and developing software systems. Currently, I am focusing on learning the essence of full stack web development.</p>
-      </div>
-      <div class="skill-row">
-        <img class="collaboration-img" src="images/CnC-modified.png" alt="collaboration-img">
-        <h3 class="skill-heading">Communication and Collaboration.</h3>
-        <p>I am passionate about being able to give back to my community. I have held numerous volunteer and leadership positions serving as a student advocate for over 1200 Electrical, Computer, and Software Engineering students, an event planner managing large budgets and timelines, and a peer mentor to other people in ECSE, to name a few.</p>
-      </div>
+
+    <!-- Bottom Container with footer with links -->
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://junaid-mohammad.github.io/HTML-Portfolio-Website/index.html"
+        >Website</a
+      >
+      <a class="footer-link" href="https://github.com/junaid-mohammad"
+        >GitHub</a
+      >
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/junaidarif-mohammad/"
+        >LinkedIn</a
+      >
+      <a href="mailto:mohammad.junaidarif@mail.mcgill.ca">Email</a>
+      <p class="copyright">© 2022 Junaid Arif.</p>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch.</h2>
-      <h3>If you enjoy Gilmore Girls as much as I do.</h3>
-      <p class="contact-message">Love Lorelai? Let's talk more about how amazing she is.<br/>We can also discuss solving real-world problems through technology while we are at it.</p>
-        <a class="btn" href="mailto:mohammad.junaidarif@mail.mcgill.ca">CONTACT ME</a>
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/junaidarif-mohammad/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/junaid-mohammad">GitHub</a>
-    <a class="footer-link" href="">Website</a>
-    <p class="copyright">© 2022 Mohammad Junaid Arif.</p>
-  </div>
-
-
-</body>
-
+  </body>
 </html>

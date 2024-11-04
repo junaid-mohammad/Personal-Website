@@ -1,19 +1,20 @@
+/* Overall body and text styling */
 body {
-  color: #40514E;
+  color: #3C3D37;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66BFBF;
+  color: #ECDFCC;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #3C3D37;
   font-size: 2.5rem;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
@@ -21,60 +22,62 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
+  color: #697565;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 p {
-  color: #40514E;
+  color: #3C3D37;
   line-height: 2;
 }
 
+.comp {
+  text-decoration: underline;
+}
+
+/* Hyperlinks and horizontal rule styling */
 a {
-  color: #11999E;
+  color: #697565;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #ECDFCC;
 }
 
 hr {
   border: dotted;
   border-bottom: none;
   border-width: 6px;
-  border-color: #EAF6F6;
+  border-color: #697565;
   width: 6%;
   margin: 100px auto;
 }
 
+/* Container Styling */
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #1E201E;
   position: relative;
   padding-top: 150px;
 }
 
 .middle-container {
-  margin: 100px 0;
+  padding: 100px 0;
+  background-color: #ECDFCC;
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #3C3D37;
   padding: 50px 0 20px;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
+/* Intro and skill section styling */
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .skill-row {
@@ -87,65 +90,62 @@ hr {
   text-align: center;
 }
 
-.comp {
-  text-decoration: underline;
+/* Image styling */
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
-.intro {
-  width: 30%;
-  margin: auto;
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
 
 .junaid-image {
-  width: 16%;
+  width: 20%;
 }
 
 .web-developer-img {
-  width: 30%;
+  width: 35%;
   margin-right: 30px;
   float: left;
 }
 
 .collaboration-img {
-  width: 30%;
-  margin-left: 50px;
+  width: 40%;
+  margin-left: 30px;
   float: right;
 }
 
+/* Contact me and footer styling */
 .contact-message {
-  width: 40%;
+  width: 35%;
   margin: 40px auto 60px;
 }
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: #3C3D37;
+  background-image: linear-gradient(to bottom, #3C3D37, #1E201E);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  color: #ECDFCC;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-lin ear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background: #697565;
+  background-image: linear-gradient(to bottom, #697565, #3C3D37);
   text-decoration: none;
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #ECDFCC;
   font-size: 0.75rem;
   padding: 20px 0;
 }
