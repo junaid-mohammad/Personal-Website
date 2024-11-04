@@ -15,7 +15,6 @@ The purpose of this project was to build a personal portfolio that reflects my d
 - **Introduction Section**: A warm welcome with a personal introduction and professional tagline.
 - **Skills Section**: Detailed overview of technical and soft skills with a focus on both design and communication.
 - **Contact Section**: Allows visitors to reach out via email, with additional social links for GitHub, LinkedIn, and the portfolio site.
-- **Responsive Layout**: Ensures a seamless experience across various screen sizes.
 
 ## Technologies Used
 
